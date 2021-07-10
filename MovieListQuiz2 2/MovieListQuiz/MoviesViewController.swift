@@ -11,7 +11,7 @@ import UIKit
 
 class MoviesViewController: UITableViewController {
     
-    let movies: [Movie] = [
+    var movies: [Movie] = [
         Movie(title: "Extraction", director: "Sam Hargrave", actor: "Chris Hemsworth, Bryon Lerum, Ryder Lerum", year: 2020, image: "Extraction", rating: 6.8),
         Movie(title: "The Gentlemen", director: "Guy Ritchie", actor: "Matthew McConaughey, Charlie Hunnam, Michelle Dockery", year: 2019, image: "TheGentlemen", rating: 7.9),
         Movie(title: "The Lodge", director: "Severin Fiala, Veronika Franz", actor: "Riley Keough, Jaeden Martell, Lia McHugh", year: 2019, image: "TheLodge", rating: 6.1),
@@ -25,7 +25,6 @@ class MoviesViewController: UITableViewController {
         Movie(title: "Arkansas", director: "Clark Duke", actor: "Liam Hemsworth, Vince Vaughn, Clark Duke", year: 2020, image: "Arkansas", rating: 5.9),
         Movie(title: "Avengers: Endgame", director: "Anthony Russo, Joe Russo", actor: "Robert Downey Jr., Scarlett Johansson, Chris Evans", year: 2019, image: "AvengersEndgame", rating: 7.9)
     ]
-    var movieListIndex = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
