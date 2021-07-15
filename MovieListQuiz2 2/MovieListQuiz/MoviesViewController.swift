@@ -11,10 +11,10 @@ import UIKit
 
 class MoviesViewController: UITableViewController {
     
-    let movies: [Movie] = [
+    var movies: [Movie] = [
         Movie(title: "Extraction", director: "Sam Hargrave", actor: "Chris Hemsworth, Bryon Lerum, Ryder Lerum", year: 2020, image: "Extraction", rating: 6.8),
-        Movie(title: "The Gentlemen", director: "Guy Ritchie", actor: "Matthew McConaughey, Charlie Hunnam, Michelle Dockery", year: 2019, image: "Gentlemen", rating: 7.9),
-        Movie(title: "The Lodge", director: "Severin Fiala, Veronika Franz", actor: "Riley Keough, Jaeden Martell, Lia McHugh", year: 2019, image: "Lodge", rating: 6.1),
+        Movie(title: "The Gentlemen", director: "Guy Ritchie", actor: "Matthew McConaughey, Charlie Hunnam, Michelle Dockery", year: 2019, image: "TheGentlemen", rating: 7.9),
+        Movie(title: "The Lodge", director: "Severin Fiala, Veronika Franz", actor: "Riley Keough, Jaeden Martell, Lia McHugh", year: 2019, image: "TheLodge", rating: 6.1),
         Movie(title: "Once Upon a Time in Hollywood", director: "Quentin Tarantino", actor: "Leonardo DiCaprio, Brad Pitt, Margot Robbie", year: 2019, image: "Hollywood", rating: 7.7),
         Movie(title: "The Willoughbys", director: "Kris Pearn, Cory Evans", actor: "Will Forte, Maya Rudolph, Alessia Cara", year: 2020, image: "Willoughby", rating: 6.4),
         Movie(title: "El hoyo", director: "Galder Gaztelu-Urrutia", actor: "Ivan Massagué, Zorion Eguileor, Antonia San Juan", year: 2019, image: "Elhoyo", rating: 7.0),
@@ -25,7 +25,6 @@ class MoviesViewController: UITableViewController {
         Movie(title: "Arkansas", director: "Clark Duke", actor: "Liam Hemsworth, Vince Vaughn, Clark Duke", year: 2020, image: "Arkansas", rating: 5.9),
         Movie(title: "Avengers: Endgame", director: "Anthony Russo, Joe Russo", actor: "Robert Downey Jr., Scarlett Johansson, Chris Evans", year: 2019, image: "AvengersEndgame", rating: 7.9)
     ]
-    var movieListIndex = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
