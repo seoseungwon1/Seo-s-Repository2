@@ -1,0 +1,73 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXFileReference section */
+		5BF84D2A26B7F845005C04DC /* Closure-ssw.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Closure-ssw.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		5BF84D2326B7F82C005C04DC = {
+			isa = PBXGroup;
+			children = (
+				5BF84D2A26B7F845005C04DC /* Closure-ssw.playground */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		5BF84D2426B7F82C005C04DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+			};
+			buildConfigurationList = 5BF84D2726B7F82C005C04DC /* Build configuration list for PBXProject "Closure-ssw" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5BF84D2326B7F82C005C04DC;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		5BF84D2826B7F82D005C04DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		5BF84D2926B7F82D005C04DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5BF84D2726B7F82C005C04DC /* Build configuration list for PBXProject "Closure-ssw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BF84D2826B7F82D005C04DC /* Debug */,
+				5BF84D2926B7F82D005C04DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5BF84D2426B7F82C005C04DC /* Project object */;
+}
